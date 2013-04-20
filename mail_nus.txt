@@ -1,0 +1,50 @@
+<html>
+<body>
+Dear Msecure Data Labs Valued Customer,
+<br/><br/>
+We are delighted with you for Choosing Malware Secure Antivirus
+<br/><br/>
+Please download the products & training videos from the below download links : 
+<br/><br/>
+<a href="http://msecuredatalabs.com/network/msetup.exe">MalwareSecure Anitvirus Network Edition</a>
+<br/><br/>
+<a href="http://msecuredatalabs.com/network/nus.exe">MalwareSecure Network Update Server</a>
+<br/><br/>
+<a href="http://msecuredatalabs.com/network/mc.exe">MalwareSecure Management Console</a>
+<br/><br/>
+You are hereby granted an End User License to use the above MSecure Products for %s Users
+<br/><br/>
+You are also requested to use the below User Id and Password for activating the Network Update Server.
+<br/><br/>
+User Id     : %s
+<br/><br/>
+Password : %s
+<br/><br/>
+The key and the User Id/Password carry your licensing information. Please activate the key in the application by following these instructions:-
+<br/><br/>
+Step1 :-
+<br/><br/>
+Go to the license tab of the product and click on the activate button and enter the key as provided to you or copy and paste the key in the respective text box
+<br/><br/>
+Make sure you are online and your internet connection is working properly during this time as it is mandatory to be online during the time of activation.
+<br/><br/>
+Note :- It is highly recommended that you preserve this email for future reference in case you need to reinstall MSecure products at a later time for the valid license period. Please keep your license credentials confidential. Misuse of the License will lead to cancellation of License.
+<br/><br/>
+If you experience any problems or if you have any queries, please contact us at http://www.msecuredatalabs.com/ or email us at support@msecuredatalabs.com or contact your local distributor.
+<br/><br/>
+<br/><br/>
+We are committed to provide you with the best of the security solutions available in the market along with the best of our services.
+<br/><br/>
+With our Intelligent Security Solutions, we wish you a safe computing environment.
+<br/><br/>
+<br/><br/>
+<br/><br/>
+Best Regards,
+<br/><br/>
+MSecure Data Labs,
+<br/><br/>
+-------------------------------------------------------------------------------------
+<br/><br/>
+THIS IS AN AUTOMATED MESSAGE. PLEASE DO NOT REPLY TO THIS MAIL.
+</body>
+</html>

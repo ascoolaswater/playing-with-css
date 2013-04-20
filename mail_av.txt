@@ -1,0 +1,43 @@
+Dear MSecure Data Labs Valued Customer,
+
+We are delighted with you for Choosing Malware Secure Antivirus
+
+Please download the products & training videos from the below download links :
+
+MSecure Antivirus
+
+http://msecuredatalabs.com/network/msetup.exe
+
+You are hereby granted an End User License to use the above MSecure Products for %s User(s)
+
+You are also requested to use the below User Id and Password for activating the Malware Secure Antivirus
+
+User Id  : %s
+
+Password : %s
+
+The key and the User Id/Password carry your licensing information. Please activate the key in the application by following these instructions:-
+
+Step1 :-
+
+Go to the license tab of the product and click on the activate button and enter the key as provided to you or copy and paste the key in the respective text box
+
+
+Make sure you are online and your internet connection is working properly during this time as it is mandatory to be online during the time of activation.
+
+Note :- It is highly recommended that you preserve this email for future reference in case you need to reinstall MSecure products at a later time for the valid license period. Please keep your license credentials confidential. Misuse of the License will lead to cancellation of License.
+
+If you experience any problems or if you have any queries, please contact us at http://www.msecuredatalabs.com/ or email us at support@msecuredatalabs.com or contact your local distributor.
+
+
+We are committed to provide you with the best of the security solutions available in the market along with the best of our services.
+
+With our Intelligent Security Solutions, we wish you a safe computing environment.
+
+
+Best Regards,
+
+MSecure Data Labs,
+
+-------------------------------------------------------------------------------------
+THIS IS AN AUTOMATED MESSAGE. PLEASE DO NOT REPLY TO THIS MAIL

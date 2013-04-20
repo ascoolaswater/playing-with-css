@@ -1,0 +1,143 @@
+body {
+  background-color: #EDE9EA;
+  margin: 0px;
+  padding: 0px;
+}
+
+.block-elements {
+  width: 270px;
+  clear: both;
+  height: 40px;
+  margin: auto;
+}
+
+.label-element {
+  width: 50px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.input-element {
+  width: 50px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+  text-align: right;
+}
+
+
+#login-center {
+  width: 480px;
+  height: 330px;
+  margin: auto;
+   box-shadow: 0 0 8px #888888;
+  -moz-box-shadow: 0 0 8px #888888;
+  -webkit-box-shadow: 0 0 8px #888888;
+  background-color: whitesmoke;
+  z-index: 100;
+  padding-top: 20px;
+  margin-top: 120px;
+  /*position: absolute;
+  left: 50%;
+  top: 50%; 
+  margin-left: -240px;
+  margin-top: -165px;
+  */
+}
+
+#login-center div{
+  font-size: 11px;
+}
+
+#login-center input {
+  padding: 5px !important;
+  height: 30px !important;
+}
+
+#signin-label {
+  text-align: center;
+  font-size: 25px !important;
+  font-family: arial;
+  margin-bottom: 20px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+#explanation {
+  width: 300px;
+  margin: auto;
+  font-size: 11px;
+  text-align: right;
+  clear: both;
+}
+
+#login-button {
+  width: 100%;
+}
+
+#login-container {
+  width: 300px;
+  margin: auto;
+}
+
+#remember-container {
+  float: right; 
+  margin-right: 90px;
+}
+
+#resend-container {
+  float: right; 
+  margin-right: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#footer {
+  background-color: #003557;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+
+@media all and (max-width: 500px) and (min-width: 0px) {
+
+  #login-center {
+    width: auto;
+    margin: 10px;
+    z-index: 100;
+  }
+
+  #login-container {
+    width: auto;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+  }
+
+  #login-button { 
+    max-width: calc(100% - 20px);
+    width: calc(100% - 20px) !important;
+    min-width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  #explanation {
+    width: auto;
+    max-width: calc(100% - 20px);
+    width: calc(100% - 20px) !important;
+    min-width: calc(100% - 20px);
+    margin: 10px;
+  } 
+
+  #remember-container {
+    margin-right: 10px;
+  }
+
+}
