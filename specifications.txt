@@ -1,0 +1,26 @@
+* Change the existing UI design to a simple user friendly interface
+
+* Able to add admin users with right to create license, edit license, full license form,trial license form. 
+create a log to see which user has created the license
+
+0) admin can define , like which prodcut a staf can generate license key, or see the lincese details, or
+1) admin can assing right to each staff to have persmission, to creats license key for single product, or each product,
+2) Admin can assin right toe each staff to view, edit license key for his respected login
+3) admin can asssin rights to each staff with full right..
+4) admin can assing right to staff only to genereat license key, but he can not view generated license. or he can only view which all license he as generated
+
+
+* Staff Management - You have flexibility over the permissions of each staff member, for added security.
+
+* when every a license mail has sent, it should be able to keep a copy of mail to to assigned particular mail id. 
+these email ids detail can be added and edited in the admin panel.
+
+* 15 days before the product expire date a mail reminder should be sent to the respected license user and 
+also a copy of mail particular mail id . we should able to edit the notification example (30 days before expire)
+
+* Should able to do sorting, by expired user, by product, etc
+could it be cliclabke columns?
+
+* Need to add couple of fields in the existing license form like Company name, phone number address Price, Comment box. 
+The same should can be viewed in the edit user or more info
+

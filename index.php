@@ -709,73 +709,89 @@ if ($mode=='createuser')
 {
 if ($level==9) {$subadmstr='   <option value="8">Sub-Admin</option>';}
 echo <<<ML_HTML
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<div id="main-container">
 <form target="do_frame" method="POST" action="./">
-<input type="hidden" name="a" value="docreate">
-<table border="0" cellpadding="5" cellspacing="0" style="border-collapse: collapse; font-family:Verdana; font-size:8pt" bordercolor="#111111">
-  <tr>
-    <td colspan="2" align="center"><u>Create New User</u><br>
-&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Name:</td>
-    <td width="50%">
-    <input type="text" name="new_name" size="30" style="font-family: Verdana; font-size: 8pt"></td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">E-mail:</td>
-    <td width="50%">
-    <input type="text" name="new_email" size="30" style="font-family: Verdana; font-size: 8pt"></td>
-  </tr>  
-  <tr>
-    <td width="50%" align="right">Username:<br>
-    (leave blank for system generated)</td>
-    <td width="50%">
-    <input type="text" name="new_user" size="30" style="font-family: Verdana; font-size: 8pt"></td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Password:<br>
-    (leave blank for random)</td>
-    <td width="50%">
-    <input type="text" name="new_pass" size="30" style="font-family: Verdana; font-size: 8pt"></td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Product:</td>
-    <td width="50%">
-        <select name="new_product">
-            <option value="avhome">AV Home</option>
-            <option value="nus">Network Update Server</option>
-            <option value="webhome">Web Security Home</option>
-            <option value="webnet">CloudDeny WebSecurity</option>
-            <option value="mccn">Management Console(for Cloud Network)</option>
-            <option value="mcbp">Management Console(BPD)</option>
-        </select> 
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Number of users:</td>
-    <td width="50%">
-    <input type="text" value="1" name="new_seats" size="30" style="font-family: Verdana; font-size: 8pt"></td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Expiry:<br>
-    (leave blank for no expiry)</td>
-    <td width="50%">
-    <input type="text" value="15" name="new_expiry" size="6" style="font-family: Verdana; font-size: 8pt"> 
-    days from first login.</td>
-  </tr>
-  <tr>
-    <td width="50%" align="right">Account Type:</td>
-    <td width="50%">
-    <select size="1" name="new_type" style="font-family: Verdana; font-size: 8pt">
-    <option selected value="0">User</option>
-$subadmstr
-    </select></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><br><input style="font-family: Verdana; font-size: 8pt" type="submit" name="" value=" Submit "></td>
-  </tr>
-</table>
+  <input type="hidden" name="a" value="docreate">
+
+  <div class="user-block">
+    <div class="label-large">Name:</div>
+    <div class="field-large">
+      <input type="text" name="new_name" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">E-mail:</div>
+    <div class="field-large">
+      <input type="text" name="new_email" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large" style="line-height: 15px">
+      Username:<br>
+      (leave blank for system generated)
+    </div>
+    <div class="field-large">
+      <input type="text" name="new_user" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large" style="line-height: 15px">
+      Password:<br>
+      (leave blank for random)
+    </div>
+    <div class="field-large">
+      <input type="text" name="new_pass" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Product:</div>
+    <div class="field-large">
+      <select name="new_product">
+        <option value="avhome">AV Home</option>
+        <option value="nus">Network Update Server</option>
+        <option value="webhome">Web Security Home</option>
+        <option value="webnet">CloudDeny WebSecurity</option>
+        <option value="mccn">Management Console(for Cloud Network)</option>
+        <option value="mcbp">Management Console(BPD)</option>
+      </select> 
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Number of users:</div>
+    <div class="field-large">
+      <input type="text" value="1" name="new_seats" size="30" style="font-family: Verdana; font-size: 8pt; width: 40px"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Expiry:</div>
+    <div class="field-large">
+      <input type="text" value="15" name="new_expiry" size="6" style="font-family: Verdana; font-size: 8pt; width: 40px"> 
+      days from first login.
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Account Type:</div>
+    <div class="field-large">
+      <select size="1" name="new_type" style="font-family: Verdana; font-size: 8pt">
+      <option selected value="0">User</option>
+  $subadmstr
+      </select>
+    </div>
+  </div>
+
+  <input style="font-family: Verdana; font-size: 8pt" type="submit" name="" class="btn btn-info" value=" Submit ">
+  
 </form>
+</div>
 <iframe style="visibility: hidden" name="do_frame" marginwidth="1" marginheight="1" height="1" width="1" border="0" frameborder="0">
 </iframe>
 

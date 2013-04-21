@@ -1,0 +1,14 @@
+/*
+ * 	simple css reset and minor styling for various html elements
+ * 	these simply provide style to the demo
+*/
+body {font-size: 75%;}
+.demoButtonHolder { height: 3em;}
+body, input, textarea, select { font-family: Helvetica, Arial, sans-serif;}
+label {width:300px;}
+input, textarea, select {font-size:1em;padding: 3px;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold;}
+h1 {font-size: 2em;line-height: 1;margin-bottom: 0.5em;}
+h2 {font-size: 1.3em;margin-bottom: 0.75em;font-style: italic;}
+h4 {font-size: .9em;margin-bottom: 0.75em;width:50%;}
+

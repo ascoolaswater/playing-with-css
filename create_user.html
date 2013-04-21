@@ -1,0 +1,83 @@
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<form target="do_frame" method="POST" action="./">
+  <input type="hidden" name="a" value="docreate">
+
+  <div class="user-block">
+    <div class="label-large">Name:</div>
+    <div class="field-large">
+      <input type="text" name="new_name" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">E-mail:</div>
+    <div class="field-large">
+      <input type="text" name="new_email" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large" style="line-height: 15px">
+      Username:<br>
+      (leave blank for system generated)
+    </div>
+    <div class="field-large">
+      <input type="text" name="new_user" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large" style="line-height: 15px">
+      Password:<br>
+      (leave blank for random)
+    </div>
+    <div class="field-large">
+      <input type="text" name="new_pass" size="30" style="font-family: Verdana; font-size: 8pt"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Product:</div>
+    <div class="field-large">
+      <select name="new_product">
+        <option value="avhome">AV Home</option>
+        <option value="nus">Network Update Server</option>
+        <option value="webhome">Web Security Home</option>
+        <option value="webnet">CloudDeny WebSecurity</option>
+        <option value="mccn">Management Console(for Cloud Network)</option>
+        <option value="mcbp">Management Console(BPD)</option>
+      </select> 
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Number of users:</div>
+    <div class="field-large">
+      <input type="text" value="1" name="new_seats" size="30" style="font-family: Verdana; font-size: 8pt; width: 40px"></td>
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Expiry:</div>
+    <div class="field-large">
+      <input type="text" value="15" name="new_expiry" size="6" style="font-family: Verdana; font-size: 8pt; width: 40px"> 
+      days from first login.
+    </div>
+  </div>
+
+  <div class="user-block">
+    <div class="label-large">Account Type:</div>
+    <div class="field-large">
+      <select size="1" name="new_type" style="font-family: Verdana; font-size: 8pt">
+      <option selected value="0">User</option>
+  $subadmstr
+      </select>
+    </div>
+  </div>
+
+  <input style="font-family: Verdana; font-size: 8pt" type="submit" name="" class="btn btn-info" value=" Submit ">
+  
+</form>
+<iframe style="visibility: hidden" name="do_frame" marginwidth="1" marginheight="1" height="1" width="1" border="0" frameborder="0">
+</iframe>
